@@ -10,7 +10,7 @@
   <Author>Athos</Author>
   <LastAuthor>Athos</LastAuthor>
   <Created>2019-11-22T07:41:41Z</Created>
-  <LastSaved>2019-11-22T15:47:38Z</LastSaved>
+  <LastSaved>2019-12-06T18:13:55Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
@@ -20,9 +20,9 @@
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>10920</WindowHeight>
-  <WindowWidth>10245</WindowWidth>
-  <WindowTopX>10245</WindowTopX>
+  <WindowHeight>7485</WindowHeight>
+  <WindowWidth>20490</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
   <WindowTopY>32767</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
@@ -39,85 +39,140 @@
   <Style ss:ID="s16">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
   </Style>
-  <Style ss:ID="s17">
-   <NumberFormat/>
-  </Style>
-  <Style ss:ID="s18">
-   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
-    ss:Underline="Single"/>
-   <NumberFormat/>
-  </Style>
-  <Style ss:ID="s19">
-   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
-   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
-    ss:Underline="Single"/>
-  </Style>
-  <Style ss:ID="s79">
-   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
-    ss:Underline="Single"/>
-  </Style>
-  <Style ss:ID="s92">
+  <Style ss:ID="s84">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
    <NumberFormat/>
   </Style>
-  <Style ss:ID="s93">
+  <Style ss:ID="s105">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
     ss:Underline="Single"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s114">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s122">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
    <NumberFormat/>
   </Style>
  </Styles>
  <Worksheet ss:Name="Planilha1">
-  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="6" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="10" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
-   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="82.5" ss:Span="1"/>
-   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="72"/>
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="82.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="72" ss:Span="1"/>
    <Row>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">id</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">ID2</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">ID</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">RA</Data></Cell>
     <Cell ss:StyleID="s16"><Data ss:Type="String">Nome</Data></Cell>
     <Cell ss:StyleID="s16"><Data ss:Type="String">Curso</Data></Cell>
     <Cell ss:StyleID="s16"><Data ss:Type="String">Habilidade 1</Data></Cell>
     <Cell ss:StyleID="s16"><Data ss:Type="String">Habilidade 2</Data></Cell>
     <Cell ss:StyleID="s16"><Data ss:Type="String">Habilidade 3</Data></Cell>
-    <Cell><Data ss:Type="String">Habilidade 4</Data></Cell>
-    <Cell><Data ss:Type="String">Habilidade 5</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Habilidade 4</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Habilidade 5</Data></Cell>
    </Row>
    <Row>
-    <Cell ss:StyleID="s92"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="Number">11519973</Data></Cell>
-    <Cell><Data ss:Type="String">Athos</Data></Cell>
-    <Cell><Data ss:Type="String">Engenharia Química</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">11519973</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Athos</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Engenharia Química</Data></Cell>
     <Cell ss:StyleID="s16"><Data ss:Type="Number">4</Data></Cell>
-    <Cell ss:StyleID="s16"><Data ss:Type="Number">9</Data></Cell>
-    <Cell ss:StyleID="s16"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s16"><Data ss:Type="Number">6</Data></Cell>
-    <Cell ss:StyleID="s16"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">8</Data></Cell>
    </Row>
    <Row>
-    <Cell ss:StyleID="s92"><Data ss:Type="Number">2</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="Number">11519976</Data></Cell>
-    <Cell><Data ss:Type="String">Lucas</Data></Cell>
-    <Cell><Data ss:Type="String">Astronauta</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">11519976</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Lucas</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Química</Data></Cell>
     <Cell ss:StyleID="s16"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s105"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="Number">11519945</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Alice</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Biomedicina</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s105"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="Number">12198315</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">José</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Direito</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s105"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="Number">10920502</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Pedro</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Medicina</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">8</Data></Cell>
     <Cell ss:StyleID="s16"><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s16"><Data ss:Type="Number">4</Data></Cell>
-    <Cell ss:StyleID="s16"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s105"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="Number">14689336</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Paulo</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Biologia</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s105"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="Number">16163223</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Alberto</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">História</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:StyleID="s16"><Data ss:Type="Number">8</Data></Cell>
    </Row>
    <Row>
-    <Cell ss:StyleID="s93"><Data ss:Type="Number">3</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="Number">11519945</Data></Cell>
-    <Cell><Data ss:Type="String">Alice</Data></Cell>
-    <Cell ss:StyleID="s79"><Data ss:Type="String">Biomedicina</Data></Cell>
-    <Cell ss:StyleID="s16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="Number">18346444</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Maria</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Ciências da Computação</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">7</Data></Cell>
     <Cell ss:StyleID="s16"><Data ss:Type="Number">7</Data></Cell>
     <Cell ss:StyleID="s16"><Data ss:Type="Number">6</Data></Cell>
     <Cell ss:StyleID="s16"><Data ss:Type="Number">7</Data></Cell>
-    <Cell ss:StyleID="s16"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">2</Data></Cell>
    </Row>
-   <Row ss:Index="6">
-    <Cell ss:StyleID="s79"/>
+   <Row>
+    <Cell ss:StyleID="s105"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="Number">14671976</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Janaina</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Ciências contábeis</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">7</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -127,16 +182,11 @@
     <PageMargins x:Bottom="0.78740157499999996" x:Left="0.511811024"
      x:Right="0.511811024" x:Top="0.78740157499999996"/>
    </PageSetup>
-   <Print>
-    <ValidPrinterInfo/>
-    <PaperSizeIndex>9</PaperSizeIndex>
-    <HorizontalResolution>600</HorizontalResolution>
-    <VerticalResolution>600</VerticalResolution>
-   </Print>
    <Selected/>
    <Panes>
     <Pane>
      <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
      <ActiveCol>1</ActiveCol>
     </Pane>
    </Panes>
